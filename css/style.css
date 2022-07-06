@@ -33,7 +33,7 @@ nav li {
 }
 
 nav li:hover {
-    background-color: lightgreen;
+    background-color: blue;
     border-style: none;
 
 }
