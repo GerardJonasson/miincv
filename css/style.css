@@ -8,7 +8,7 @@ body {
 
 /* Navigatie instellingen */
 nav {
-    border-block-color: rgb(79, 79, 187);
+   background-color: rgb(82, 82, 197);
 }
 
 nav ul a {
