@@ -7,25 +7,25 @@ body {
 }
 
 /* Navigatie instellingen */
-ul a {
+nav ul a {
     color: white;
     text-decoration: none;
 
 }
-li {
+nav li {
     display: inline-block;
     height: 22px;
-    width: 100px;
+    width: 350px;
     padding: 12px;
     text-align: center;
     color: white;
     border-left: 2px solid green;
     border-right: 1px solid green;
-    background-color: olive;
+    background-color: lightsteelblue;
 
 }
 
-li:hover {
+nav li:hover {
     background-color: lightgreen;
     border-style: none;
 
