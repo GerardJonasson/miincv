@@ -7,6 +7,10 @@ body {
 }
 
 /* Navigatie instellingen */
+nav {
+    border-block-color: rgb(79, 79, 187);
+}
+
 nav ul a {
     color: white;
     text-decoration: none;
