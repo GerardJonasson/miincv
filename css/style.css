@@ -1,7 +1,7 @@
 body {
     background-color: cornflowerblue;
     margin: 0% 15% 0%;
-    color: white;
+    color: rgb(222, 222, 245);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
 }
@@ -39,3 +39,12 @@ nav li:hover {
 }
 
 /* einde navigatie instellingen */
+
+legend {
+    color: rgb(84, 84, 201);
+}
+
+#opleiding, #ervaring td {
+    border-bottom: 1px solid rgb(133, 129, 129);
+    
+}
