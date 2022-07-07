@@ -24,6 +24,7 @@ nav li {
     height: 22px;
     width: 280px;
     padding: 12px;
+    font-weight: 120%;
     text-align: center;
     color: white;
     border-left: 2px solid green;
