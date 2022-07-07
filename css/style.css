@@ -41,6 +41,11 @@ nav li:hover {
 
 /* einde navigatie instellingen */
 
+#fotogerard {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
 legend {
     color: rgb(84, 84, 201);
 }
