@@ -54,3 +54,7 @@ legend {
     border-bottom: 1px solid rgb(133, 129, 129);
     
 }
+
+#contactform {
+    display: block;
+}
