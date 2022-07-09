@@ -17,29 +17,49 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../html/mijncv.html">Mijn CV</a></li>
-                <li><a href="#">nog bedenken</a></li>
+                <li><a href="../html/bedenken.html">nog bedenken</a></li>
             </ul>
         </nav>
     </header>
-    <form>
+
+    <h2>U wilt graag met mij in contact komen?</h2>
+    <p>Dat kan door een reactie achter te laten op het onderstaande formulier.</p>
+
+    <form id="contactform" action="https://formspree.io/f/xyyoqgbe" method="post">
         <fieldset>
-            <legend>Contactformulier</legend>
-        <div id="contactform">    
-        <input type="text" placeholder="Uw naam"/>
-        <input type="e-mail" placeholder="Uw E-mailadres"/>
-        <textarea placeholder="Uw boodschap"> Uw boodschap... </textarea>
-        <select>
-            <option value="afdeling">Afdeling</option>
-            <option value="receptie">Receptie</option>
-            <option value="administratie">Administratie</option>
-            <option value="marketing">Marketing</option>
-            <option value="algemeen">Algemeen</option>
-        </select>
-        <button>Verzend</button>
-        </div>
+            <legend><h2>Contactformulier</h2></legend>
+         
+            <input type="text" placeholder="Uw naam" name="naam"/>
+            <input type="e-mail" placeholder="Uw E-mailadres" name="e-mail"/>
+            <textarea placeholder="Uw boodschap" name="bericht" placeholder="Uw boodschap..."></textarea>
+                <select>
+                    <option name="reactie" value="reactie">Graag een reactie per e-mail</option>
+                    <option name="werk" value="werk">Kom bij ons werken</option>
+                    <option name="leukesite" value="site">Leuke Site, mooi gedaan</option>
+                    <option name="wilikook" value="wilik" value="wilikook">Maak voor mij ook zo'n site</option>
+                    <option name="bellen" value="algemeen">Bel me terug aub</option>
+                </select>
+                
+
+            <!--Nog even werken aan de selectieopties, die komen niet els waarde door in de mail 
+                die verzonden wordt.... zie les 7-->
+                <input type="text" name="_gotcha" style="display:none"/>
+                <input id="zend" type="submit" value="Verzend">
     </fieldset>
+                
+
     </form>
-    <br><hr>
+    <br><hr><br>
+
+    <footer>
+        <table>
+            <tr><td></td></tr>
+            <tr>
+                <td id="foot">2022 | &copy; Gerard Jonasson </td>
+            </tr>
+        </table>
+        
+    </footer>
     
 </body>
 </html>
